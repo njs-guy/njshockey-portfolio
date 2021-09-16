@@ -4,10 +4,14 @@ body {
     background-color: f7f7f8;
 }
 
-p, a {
+.navbar, .main-content, .footer, .portfolio-item, .resume-item {
     font-family: 'Roboto', Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', Verdana, sans-serif;
+}
+
+.cover-letter {
+ font-family: Georgia, 'Times New Roman', Times, serif;
 }
