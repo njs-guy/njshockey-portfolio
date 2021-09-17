@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 body {
-    background-color: f7f7f8;
+    background-color: #f7f7f8;
 }
 
 p {
@@ -27,9 +27,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
     width: 115px;
-    background-color: cyan;
+    background-color: #ccf5ff;
     border-radius: 5px;
     float: left;
+    outline: 1px solid #99ebff;
+    box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.6);
 }
 
 .nav-link {
@@ -38,4 +40,14 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
     text-decoration: none;
     padding: 5px;
+}
+
+.about-item, .portfolio-item, .resume-item, .contact-item {
+    background-color: #f8f8ff;
+    border-radius: 5px;
+    padding: 1px 10px 15px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: 1px solid lightgrey;
+    box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.6);
 }
