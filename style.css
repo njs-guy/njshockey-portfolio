@@ -12,6 +12,30 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', Verdana, sans-serif;
 }
 
+img {
+    /* display: inline-block; */
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+
+ul {
+    list-style-type: circle;
+    
+}
+
+ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 140px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .navbar, .main-content, .footer, .portfolio-item, .resume-item {
     font-family: 'Roboto', Arial, sans-serif;
 }
@@ -45,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 .about-item, .portfolio-item, .resume-item, .contact-item {
     background-color: #f8f8ff;
     border-radius: 5px;
-    padding: 1px 10px 15px 10px;
+    padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     outline: 1px solid lightgrey;
