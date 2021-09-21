@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 body {
+    margin:0;
+    padding: 0;
     background-color: #f7f7f8;
 }
 
@@ -50,10 +52,13 @@ ul li {
 }
 
 .navbar {
-    margin: 0px;
-    border-bottom: 3px solid steelblue;
+    /* background-image: linear-gradient(to right, rgba(173,252,234,1), rgba(192,229,246,1)); */
+    background-image: linear-gradient(to right, #00b4db, #0C8BF2);
+    padding-top: 3px;
+    /* border-bottom: 3px solid steelblue; */
     display: flex;
     flex-direction: row;
+    box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.6);
 }
 
 .nav-link {
@@ -62,19 +67,20 @@ ul li {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    margin-right: 10px;
+    margin: 5px 5px 0px 5px;
     border-radius: 10px 10px 0px 0px;
     padding: 5px;
 }
 
-.nav-link:hover {
-    background-color: steelblue;
+.nav-link:hover:not(#current-page) {
+    background-color: #1C505C;
     color: white;
     transition: 0.3s;
 }
 
 #current-page {
-    outline: 3px solid steelblue;
+    background-color: #0089A8;
+    color: white;
 }
 
 .about-item, .portfolio-item, .resume-item, .contact-item {
@@ -83,6 +89,6 @@ ul li {
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    outline: 3px solid grey;
-    /* box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.6); */
+    outline: 1px solid lightgrey;
+    box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.6);
 }
