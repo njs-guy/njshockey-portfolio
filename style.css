@@ -52,10 +52,8 @@ ul li {
 }
 
 .navbar {
-    /* background-image: linear-gradient(to right, rgba(173,252,234,1), rgba(192,229,246,1)); */
     background-image: linear-gradient(to right, #00b4db, #0C8BF2);
     padding-top: 3px;
-    /* border-bottom: 3px solid steelblue; */
     display: flex;
     flex-direction: row;
     box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.6);
@@ -90,5 +88,16 @@ ul li {
     margin-top: 20px;
     margin-bottom: 20px;
     outline: 1px solid lightgrey;
-    box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.6);
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.6);
+}
+
+.pf-item-info {
+    outline: 2px solid grey;
+    background-color: whitesmoke;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 1px 1px 5px -1px rgba(0,0,0,0.6);
 }
