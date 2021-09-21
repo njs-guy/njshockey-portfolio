@@ -9,11 +9,11 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    margin-top: 0.25em;
     font-family: 'Lato', Verdana, sans-serif;
 }
 
 img {
-    /* display: inline-block; */
     border-radius: 5px;
     float: left;
     margin-right: 15px;
@@ -21,7 +21,6 @@ img {
 
 ul {
     list-style-type: circle;
-    
 }
 
 ul li {
@@ -50,20 +49,31 @@ ul li {
 }
 
 .navbar {
-    width: 115px;
-    background-color: #ccf5ff;
-    border-radius: 5px;
-    float: left;
-    outline: 1px solid #99ebff;
-    box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.6);
+    margin: 0px;
+    border-bottom: 3px solid steelblue;
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-link {
+    color: black;
     font-size: 24px;
-    display: block;
-    cursor: pointer;
+    text-align: center;
     text-decoration: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px 10px 0px 0px;
     padding: 5px;
+}
+
+.nav-link:hover {
+    background-color: steelblue;
+    color: white;
+    transition: 0.3s;
+}
+
+#current-page {
+    outline: 3px solid steelblue;
 }
 
 .about-item, .portfolio-item, .resume-item, .contact-item {
