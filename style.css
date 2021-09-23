@@ -42,8 +42,8 @@ ul li {
     font-family: 'Roboto', Arial, sans-serif;
 }
 
-.cover-letter {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.cover-letter ul li {
+    margin-left: 5px;
 }
 
 .main-content {
@@ -76,6 +76,12 @@ ul li {
     transition: 0.3s;
 }
 
+.icon {
+    border-radius: 0;
+    float: none;
+    margin-right: 5px;
+}
+
 #current-page {
     background-color: #0089A8;
     color: white;
@@ -84,7 +90,7 @@ ul li {
 .about-item, .portfolio-item, .resume-item, .contact-item {
     background-color: #f8f8ff;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     outline: 1px solid lightgrey;
