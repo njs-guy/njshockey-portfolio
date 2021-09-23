@@ -4,6 +4,8 @@ body {
     margin:0;
     padding: 0;
     background-color: #f7f7f8;
+    height: 100%;
+    position: relative;
 }
 
 p {
@@ -32,13 +34,24 @@ ul li {
     margin-left: 140px;
 }
 
+footer {
+    background-color: #262626;
+    padding: 5px;
+}
+
+.main-content {
+    min-height: 90vh;
+    display: block;
+    position: relative;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
-.navbar, .main-content, .footer, .portfolio-item, .resume-item {
+.navbar, .main-content, .portfolio-item, .resume-item, .footer-text, .footer-link {
     font-family: 'Roboto', Arial, sans-serif;
 }
 
@@ -107,4 +120,18 @@ ul li {
     border-radius: 5px;
     display: inline-block;
     box-shadow: 1px 1px 5px -1px rgba(0,0,0,0.6);
+}
+
+.footer-link, .footer-text {
+    font-size: 16px;
+    color: #cccccc;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.footer-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
