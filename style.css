@@ -100,6 +100,7 @@ ul li {
 .pf-item-info {
     outline: 2px solid grey;
     background-color: whitesmoke;
+    background-image: linear-gradient(to right, lightgrey, #e6e6e6);
     margin-left: 5px;
     margin-right: 5px;
     padding: 3px;
