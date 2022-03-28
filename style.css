@@ -61,33 +61,40 @@ footer {
 }
 
 .main-content {
-    margin-left: 140px;
-    margin-right: 30vw;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #00b4db, #0C8BF2);
+    background-color: white;
     padding-top: 3px;
     display: flex;
     flex-direction: row;
+    text-align: center;
+    margin: 0 auto;
     box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.6);
 }
 
 .nav-link {
     color: black;
     font-size: 24px;
-    text-align: center;
+    /* text-align: center; */
     text-decoration: none;
     cursor: pointer;
-    margin: 5px 5px 0px 5px;
+    margin-left: 5px;
     border-radius: 10px 10px 0px 0px;
     padding: 5px;
 }
 
 .nav-link:hover:not(#current-page) {
-    background-color: #1C505C;
+    background-color: #A32CC4;
     color: white;
     transition: 0.3s;
+}
+
+#current-page {
+    background-color: #710193;
+    color: white;
 }
 
 .icon {
@@ -96,13 +103,8 @@ footer {
     margin-right: 5px;
 }
 
-#current-page {
-    background-color: #0089A8;
-    color: white;
-}
-
 .about-item, .portfolio-item, .resume-item, .contact-item {
-    background-color: #f8f8ff;
+    background-color: white;
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
@@ -112,10 +114,8 @@ footer {
 }
 
 .pf-item-info {
-    outline: 2px solid grey;
-    background-color: whitesmoke;
-    background-image: linear-gradient(to right, lightgrey, #e6e6e6);
-    margin-left: 5px;
+    outline: 1px solid grey;
+    background-color: #e6e6e6;
     margin-right: 5px;
     padding: 3px;
     border-radius: 5px;
