@@ -29,7 +29,7 @@
 body {
     margin:0;
     padding: 0;
-    background-color: #f7f7f8;
+    background-color: #EDF0F2;
     height: 100%;
     position: relative;
 }
@@ -92,7 +92,7 @@ footer {
 }
 
 .navbar {
-    background-color: white;
+    background-color: #fefefe;
     padding-top: 3px;
     padding-bottom: 2px;
     text-align: center;
@@ -112,6 +112,7 @@ footer {
 }
 
 .nav-link:hover:not(#current-page) {
+    color: #7E3FF2;
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 3px;
@@ -119,7 +120,7 @@ footer {
 }
 
 #current-page {
-    color: #710193;
+    color: #6002EE;
     font-weight: bold;
     text-decoration: underline;
     text-decoration-thickness: 3px;
@@ -133,13 +134,14 @@ footer {
 }
 
 .about-item, .portfolio-item, .resume-item, .contact-item {
-    background-color: white;
+    background-color: #fefefe;
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    outline: 1px solid lightgrey;
-    box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.6);
+    outline: 1px solid #E0E0E0;
+    box-shadow: 1px 1px 4px -1px rgba(0,0,0,0.6);
+    overflow: visible;
 }
 
 .pf-item-info {
