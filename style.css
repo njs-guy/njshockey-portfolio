@@ -29,7 +29,8 @@
 body {
     margin:0;
     padding: 0;
-    background-color: #EDF0F2;
+    background-color: #2198FD;
+    background-image: linear-gradient(to top right, #6DBCFD, #2198FD);
     height: 100%;
     position: relative;
 }
@@ -93,17 +94,15 @@ footer {
 }
 
 .navbar {
-    background-color: #fefefe;
     padding-top: 3px;
     padding-bottom: 2px;
-    text-align: center;
-    margin: 0 auto;
-    box-shadow: -1px 0px 5px -1px rgba(0,0,0,0.6);
+    text-align: right;
+    margin: 8px;
 }
 
 .nav-link {
-    color: black;
-    font-size: 24px;
+    color: #FEFEFE;
+    font-size: 22px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -113,7 +112,6 @@ footer {
 }
 
 .nav-link:hover:not(#current-page) {
-    color: #7E3FF2;
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 3px;
@@ -121,7 +119,6 @@ footer {
 }
 
 #current-page {
-    color: #6002EE;
     font-weight: bold;
     text-decoration: underline;
     text-decoration-thickness: 3px;
