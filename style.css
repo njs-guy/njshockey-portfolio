@@ -42,7 +42,7 @@ p {
     font-size: 1.1em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .info {
     margin-top: 0.25em;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     overflow: visible;
@@ -146,13 +146,15 @@ footer {
 }
 
 .info {
-    outline: 1px solid grey;
+    /* outline: 1px solid grey;
     background-color: #e6e6e6;
     margin-right: 5px;
     padding: 3px;
     border-radius: 5px;
+    box-shadow: 1px 1px 5px -1px rgba(0,0,0,0.6); */
+
+    font-weight: lighter;
     display: inline-block;
-    box-shadow: 1px 1px 5px -1px rgba(0,0,0,0.6);
 }
 
 .footer-link, .footer-text {
