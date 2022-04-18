@@ -97,9 +97,9 @@ footer {
 }
 
 .navbar {
-    padding-top: 3px;
+    padding-top: 10px;
     padding-bottom: 2px;
-    text-align: right;
+    text-align: center;
     margin: 8px;
 }
 
@@ -109,24 +109,19 @@ footer {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    margin-left: 5px;
-    border-radius: 10px 10px 0px 0px;
-    padding: 5px;
+    margin-left: clamp(10px, 15px, 40px);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .nav-link:hover:not(#current-page) {
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 3px;
-    transition: 0.3s;
+    background-color: #BBDEFB;
+    transition: 0.5s;
 }
 
 #current-page {
-    color: #1964BA;
-    font-weight: bold;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 3px;
+    color: white;
+    background-color: #1976D2;
 }
 
 .icon {
