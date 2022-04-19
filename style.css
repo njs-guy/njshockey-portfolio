@@ -166,3 +166,29 @@ footer {
     height: 25px;
     margin: 20px 15px 20px 0px;
 }
+
+.link {
+    text-decoration: none;
+}
+
+.link:link {
+    color: #2979ff;
+}
+
+.link:visited {
+    color: #0031ca;
+}
+
+.link:active {
+    color: #ff1744;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link[href^="http"] {
+    background: url('img/arrow-external.svg') no-repeat 100% 25%;
+    background-size: 8px;
+    padding-right: 10px;
+}
