@@ -192,12 +192,6 @@ footer {
     text-decoration: underline;
 }
 
-.link[href^="http"] {
-    background: url('img/arrow-external.svg') no-repeat 100% 25%;
-    background-size: 8px;
-    padding-right: 10px;
-}
-
 .link-btn {
     font-size: 0.8em;
     color: #fafafa;
